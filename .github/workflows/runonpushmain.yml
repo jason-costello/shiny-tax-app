@@ -1,25 +1,23 @@
-
+name: On push to main
 # Controls when the action will run.
 on:
 # Triggers the workflow on push or pull request events but only for the main branch
-push:
-branches:
-  - main
-  - master
+  push:
+    branches: [main, master]
 jobs:
 # This workflow contains a single job called "build"
-build:
+  build:
 # The type of runner that the job will run on
-runs-on: Ubuntu-20.04
+    runs-on: Ubuntu-20.04
 # Steps represent a sequence of tasks that will be executed as part of the job
-steps:
+  steps:
 # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-  - uses: actions/checkout@v2
+    - uses: actions/checkout@v2
 # build the docker image and give it the name main
-  - name: Build image
-run: docker build -t main .
-  - name: execute
-run: >
+    - name: Build image
+      run: docker build -t main .
+    - name: execute
+      run: >
   docker run
   -e SHINY_ACC_NAME=${{ secrets.SHINY_ACC_NAME }}
   -e TOKEN=${{secrets.TOKEN}}
