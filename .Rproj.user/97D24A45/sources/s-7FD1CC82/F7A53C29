@@ -1,0 +1,26 @@
+{
+    "id": "F7A53C29",
+    "path": "~/Development/rstudio_apps/tax/deploy.R",
+    "project_path": "deploy.R",
+    "type": "r_source",
+    "hash": "219786353",
+    "contents": "",
+    "dirty": false,
+    "created": 1652024961934.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "19,32",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1652024969,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1652024969494,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,0 +1,11 @@
+name: partOfURL
+title: shinyapplication
+username:
+account: jason-costello
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6258432
+bundleId: 5883719
+url: https://jason-costello.shinyapps.io/partOfURL/
+when: 1652025225.63684
+lastSyncTime: 1652025225.63685
